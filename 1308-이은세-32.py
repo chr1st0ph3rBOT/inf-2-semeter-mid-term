@@ -7,7 +7,7 @@ class Book:
         self.publish_year = publish_year
 
     def get_years_since_publication(self):
-        current_year = date.today().year
+        current_year = date.today().year # date.today() -> datetime.date(2025, 7, 17)
         return current_year - self.publish_year
     
 book = Book('Demian', 'Herman Hesse', 1919)
