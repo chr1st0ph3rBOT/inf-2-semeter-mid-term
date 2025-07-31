@@ -1,7 +1,6 @@
 # 내 풀이
 class main:
-    def __init__(self, remaining_seats, seats):
-        self.remainig_seats = remaining_seats
+    def __init__(self, seats):
         self.seats = seats
 
     def __str__(self):
@@ -11,7 +10,7 @@ class main:
         else:
             return "Sold Out"
             
-CGV = main(1, 100)
+CGV = main(1)
 print(CGV)
 print(CGV)
 
