@@ -1,3 +1,4 @@
+# 내 풀이
 class main:
     def __init__(self, remaining_seats, seats):
         self.remainig_seats = remaining_seats
@@ -13,3 +14,4 @@ class main:
 CGV = main(1, 100)
 print(CGV)
 print(CGV)
+
